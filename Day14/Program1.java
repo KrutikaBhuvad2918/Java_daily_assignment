@@ -10,6 +10,7 @@ class Program1{
 	int max = sc.nextInt();
 	
 	System.out.println("Series Of Odd Numbers Ranging between "+ min +" & "+ max +" is: ");
+
 	for(int i=min; i<=max; i++)
 	{
 	if(i%2==1)

@@ -10,8 +10,8 @@ class Program1{
 	int num = 1;
 	for(int i = 0; i < 10; i++) 
 	{
-		System.out.print(num + " ");
-		num += inc;
+	     System.out.print(num + " ");
+	     num = num + inc;
 	}
     }
 }

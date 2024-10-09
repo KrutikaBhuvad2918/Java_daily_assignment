@@ -5,13 +5,13 @@ class Program4{
 	{
 	 for(int j = 0; j<=4-i; j++)
 	 {
-	  if(j%2==1)
+	  if(j%2 == 0)
 	  {
-	     System.out.print("=   ");
+	     System.out.print("+   ");
 	  }
 	  else
 	  {
-	     System.out.print("+   ");
+	     System.out.print("=   ");
 	  }
 	}
 	System.out.println();
